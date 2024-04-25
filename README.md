@@ -1,6 +1,7 @@
 # notas_programacion
 Resolución de código
 
+```
 #include <iostream>
 using namespace std;
 
@@ -28,3 +29,4 @@ int main() // función principal
 
     return 0;
 }
+```
