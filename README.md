@@ -33,6 +33,63 @@ int main() // función principal
 
 
 ```
+# TERCER EJERCICIO
+#include <iostream>
+
+using namespace std; 
+
+int C;
+int T; 
+int D; 
+
+ int main() {
+     cout<<"Ingrese la cantidad de horas:";
+     cin>>C;
+     cout<<"Ingrese la tarifa:";
+     cin>>T;
+     cout<<"Ingrese el descuento:";
+     cin>>D; 
+     if(C<40) {
+         int P = C*T - D;
+         cout<<P;
+     } else {
+         int P = 40*T + (C-40)*1.5*T-D;
+         cout<<P;
+     }
+ }
+```
+
+```
+# PRIMER EJERCICIO
+#include <iostream>
+
+using namespace std; 
+
+int D;
+string T;
+int main() {
+    
+    cout<<"Ingrese la distancia:";
+    cin>>D;
+    if(D>500){
+        cout<<"La distancia es:";
+        string T = "grande";
+    } else {
+        if(D<100){
+            cout<<"La distancia es:";
+            string T= "pequeña";
+            cout<<T;
+        } else {
+            cout<<"La distancia es:";
+            string T = "mediana";
+            cout<<T;
+        }
+    }
+}
+```
+
+
+```
 # CALCULADORAS
 #include <iostream>
 
@@ -173,8 +230,153 @@ int main() {
 
 ```
 # Determinar si es un año bisiesto
+#include <iostream>
+
+using namespace std; 
+
+int A; 
+
+int main() {
+    cout<< "Ingrese el año: ";
+    cin>> A;
+    
+    if(A%4 == 0) {
+        cout<< A <<" Es un año bisiesto" << endl;    
+    } else if (A%4 == 0 && A%100 != 0 ) {
+        cout<< A <<" Es un año bisiesto" << endl;
+    } else if (A%100 == 0 && A%400 != 0) {
+        cout<< A <<" No es un año bisiesto" << endl;
+    } else if (A%100 == 0 && A % 400 == 0) {
+        cout<< A <<"Es un año bisiesto" << endl;
+    } else if (A%4 != 0) {
+        cout<< A <<" No es un año bisiesto" << endl;
+    }
+    
+}
 
 ```
 
+```
+# Determinar el tipo de triangulo
+#include <iostream>
+
+using namespace std; 
+
+int A;
+int B;
+int C;
+
+int main() {
+    cout<< "Ingrese la longitud del primer lado: ";
+    cin>> A;
+    cout<< "Ingrese la longitud del segundo lado: ";
+    cin>> B;
+    cout<< "Ingrese la longitud del tercer lado: ";
+    cin>> C;
+    
+     if (A == B && A == C) {
+        cout<<" El triangulo es equilatero";
+    } else if (A == B || A == C || B == C) {
+        cout<<" El triangulo es isóceles";
+    } else if (A != B && A != C) {
+        cout<<" El triangulo es escaleno";
+    }
+} 
+```
+
+```
+# Calcular el descuento
+
+#include <iostream>
+
+using namespace std; 
+
+int P; 
+int C; 
+
+int main() {
+    cout<<"Ingresa el precio del producto: ";
+    cin>>P; 
+    cout<<"Ingresa la cantidad de productos: ";
+    cin>>C;
+    int T = P*C;
+    
+    if(C>10 && C<= 20) {
+        int PF = 0.90*T;
+        cout<<"El precio final es de "<< PF << endl;
+    } else if(C>20) {
+        int PF = 0.80*T;
+        cout<<"El precio final es de "<< PF << endl;
+    }
+}
+
+```
+
+```
+# Calcular día de la semana
+#include <iostream>
+
+using namespace std; 
+
+int D;
+int main() {
+
+cout<< "Introduce un número del 1 al 7: ";
+        cin>> D;
+        
+    switch(D){
+        case 1: cout<< "El día de la semana es Lunes";
+        break;
+        case 2: cout<< "El día de la semana es Martes";
+        break;
+        case 3: cout<< "El día de la semana es Miercoles";
+        break;
+        case 4: cout<< "El día de la semana es Jueves";
+        break;
+        case 5: cout<< "El día de la semana es Viernes";
+        break;
+        case 6: cout<< "El día de la semana es Sabado";
+        break;
+        case 7: cout<< "El día de la semana es Domingo";
+        break;
+        default: cout<< "No es un día válido";
+    }
+}
+
+```
+
+```
+# Calcular el índice de masa corporal (IMC)
+#include <iostream>
+
+using namespace std; 
+
+int P;
+float A;
+int IMC; 
+
+int main() {
+    cout<<"Ingresa tu peso: ";
+    cin>> P; 
+    cout<<"Ingresa su altura: ";
+    cin>> A; 
+    
+    IMC = P/(A*A); 
+    
+    if(IMC < 18.5){
+        cout<<"Su IMC indica bajo peso";
+    } else if (IMC >= 18.5 && IMC < 24.9 ) {
+        cout<<"Su IMC indica peso normal";
+    } else if (IMC >= 25 && IMC < 29.9) {
+        cout<<"Su IMC indica sobrepeso";
+    } else if (IMC >= 30 && IMC < 34.9) {
+        cout<<"Su IMC indica Obesidad clase 1";
+    } else if (IMC >= 35 && IMC < 39.9) {
+        cout<<"Su IMC indica Obesidad clase 2";
+    } else if(IMC >= 40) {
+        cout<<"Su IMC indica Obesidad clase 3";
+    }
+}
+```
 
 
