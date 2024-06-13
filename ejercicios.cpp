@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+// comentarios cambios
 int CostoSeguro (int s , int e){
     int out;
     if(s==0){
