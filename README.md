@@ -1,5 +1,28 @@
 # notas_programacion
 Resolución de código
+Semana 5: Condicionales
+Ejercicios:
+1. Calculadora
+Desarrolle un programa en C++ que solicite al usuario dos números y una operación a realizar entre ellos 
+(suma, resta, multiplicación o división) y muestre el resultado. El programa debe ser capaz de realizar 
+la operación indicada por el usuario y mostrar un mensaje de error si la operación no es válida.
+Algoritmos:
+
+2. Determinar el cuadrante en el plano cartesiano
+Desarrolle un programa en C++ que solicite al usuario las coordenadas de un punto en el plano cartesiano 
+y determine en qué cuadrante se encuentra. El programa debe mostrar un mensaje indicando el cuadrante 
+correspondiente o si el punto se encuentra en alguno de los ejes o en el origen.
+Algoritmos: 
+
+3. Calificación de examen
+Desarrolle un programa en C++ que solicite al usuario la calificación de un examen (0 a 100) y muestre si 
+es insuficiente, suficiente, bien, notable o sobresaliente. El programa debe mostrar un mensaje indicando 
+la calificación obtenida.
+Algoritmos:
+
+
+4. Determinar el mayor de tres números:Desarrolle un programa en C++ que solicite al usuario tres números 
+y determine cuál de ellos es el mayor. El programa debe mostrar un mensaje indicando el número mayor.
 
 ```
 #include <iostream>
