@@ -69,3 +69,36 @@ int main() {
         cout<< "Las coordenadas están en el cuarto cuadrante";
     }
 }
+
+// Cuadrante del plano cartesiano
+
+
+#include <iostream>
+
+using namespace std; 
+
+int A;
+int B; 
+
+int main() {
+    cout<< "Ingresa el primer número: ";
+    cin>> A; 
+    cout<< "Ingresa el segundo número: ";
+    cin>> B;
+    
+    if(A == 0 && B == 0) {
+        cout<< "La coordenada está en el origen";
+    } else if (A == 0 && B!= 0) {
+        cout<< "Las coordenadas están en el eje Y";
+    } else if (A != 0 && B == 0) {
+        cout<< "Las coordenadas están en el eje X";
+    } else if (A> 0 && B> 0) {
+        cout<< "Las coordenadas están en el primer cuadrante";
+    } else if (A<0 && B>0) {
+        cout<< "Las coordenadas están en el segundo cuadrante";
+    } else if (A<0 && B<0) {
+        cout<< "Las coordenadas están en el tercer cuadrante";
+    } else if (A>0 && B<0) {
+        cout<< "Las coordenadas están en el cuarto cuadrante";
+    }
+}
