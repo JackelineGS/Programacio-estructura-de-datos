@@ -102,3 +102,33 @@ int main() {
         cout<< "Las coordenadas están en el cuarto cuadrante";
     }
 }
+
+// Calificacion de examen
+#include <iostream>
+
+using namespace std; 
+
+int R;
+
+int main() {
+    cout<< "Ingresa tu calificación (0 - 100): ";
+    cin>> R;
+    
+    switch(R) {
+        case 0 ... 25: 
+        cout<< "Su calificación "<< R << " indica un nivel INSUFICIENTE" << endl; 
+        break;
+        case 26 ... 50:
+        cout<< "Su resultado "<< R << " indica un nivel SUFICIENTE" << endl; 
+        break;
+        case 51 ... 75:
+        cout<< "Su resultado "<< R << " indica un nivel BIEN" << endl; 
+        break;
+        case 76 ... 95:
+        cout<< "Su resultado "<< R << " indica un nivel NOTABLE" << endl; 
+        break;
+        case 96 ... 100:
+        cout<< "Su resultado "<< R << " indica un nivel SOBRESALIENTE" << endl; 
+        break;
+    } 
+}
