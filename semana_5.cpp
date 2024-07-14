@@ -236,6 +236,74 @@ int main() {
         cout<<"El precio final es de "<< PF << endl;
     }
 }
+
+// Determinar si un numero es par o impar
+#include <iostream>
+
+using namespace std; 
+
+#include <iostream>
+
+using namespace std; 
+
+int A;
+
+int main() {
+    cout<<"Ingrese un número: ";
+    cin>> A; 
+    
+    if(A % 2 == 0 && A != 0) {
+        cout<<"El número es PAR";
+    } else if(A % 2 != 0) {
+        cout<<"El número es IMPAR";
+    } else if(A == 0) {
+        cout<<"El valor es NULO";
+    }
+}
+
+
+// Dia de la semana
+#include <iostream>
+
+using namespace std; 
+
+int D;
+int main() {
+
+cout<< "Introduce un número del 1 al 7: ";
+        cin>> D;
+        
+    switch(D){
+        case 1: cout<< "El día de la semana es Lunes";
+        break;
+        case 2: cout<< "El día de la semana es Martes";
+        break;
+        case 3: cout<< "El día de la semana es Miercoles";
+        break;
+        case 4: cout<< "El día de la semana es Jueves";
+        break;
+        case 5: cout<< "El día de la semana es Viernes";
+        break;
+        case 6: cout<< "El día de la semana es Sabado";
+        break;
+        case 7: cout<< "El día de la semana es Domingo";
+        break;
+        default: cout<< "No es un día válido";
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 
 
