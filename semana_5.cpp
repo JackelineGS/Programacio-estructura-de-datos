@@ -160,6 +160,7 @@ int main() {
     
 }
 
+
 // Bisiesto 
 #include <iostream>
 
@@ -184,3 +185,57 @@ int main() {
     }
     
 }
+
+// Tipo de triangulo
+#include <iostream>
+
+using namespace std; 
+
+int A;
+int B;
+int C;
+
+int main() {
+    cout<< "Ingrese la longitud del primer lado: ";
+    cin>> A;
+    cout<< "Ingrese la longitud del segundo lado: ";
+    cin>> B;
+    cout<< "Ingrese la longitud del tercer lado: ";
+    cin>> C;
+    
+     if (A == B && A == C) {
+        cout<<" El triangulo es equilatero";
+    } else if (A == B || A == C || B == C) {
+        cout<<" El triangulo es isóceles";
+    } else if (A != B && A != C) {
+        cout<<" El triangulo es escaleno";
+    }
+} 
+
+// Descuento
+
+#include <iostream>
+
+using namespace std; 
+
+int P; 
+int C; 
+
+int main() {
+    cout<<"Ingresa el precio del producto: ";
+    cin>>P; 
+    cout<<"Ingresa la cantidad de productos: ";
+    cin>>C;
+    int T = P*C;
+    
+    if(C>10 && C<= 20) {
+        int PF = 0.90*T;
+        cout<<"El precio final es de "<< PF << endl;
+    } else if(C>20) {
+        int PF = 0.80*T;
+        cout<<"El precio final es de "<< PF << endl;
+    }
+}
+   
+
+
