@@ -292,6 +292,39 @@ cout<< "Introduce un número del 1 al 7: ";
     }
 }
 
+// Calcular el indice de masa muscular
+
+#include <iostream>
+
+using namespace std; 
+
+int P;
+float A;
+int IMC; 
+
+int main() {
+    cout<<"Ingresa tu peso: ";
+    cin>> P; 
+    cout<<"Ingresa su altura: ";
+    cin>> A; 
+    
+    IMC = P/(A*A); 
+    
+    if(IMC < 18.5){
+        cout<<"Su IMC indica bajo peso";
+    } else if (IMC >= 18.5 && IMC < 24.9 ) {
+        cout<<"Su IMC indica peso normal";
+    } else if (IMC >= 25 && IMC < 29.9) {
+        cout<<"Su IMC indica sobrepeso";
+    } else if (IMC >= 30 && IMC < 34.9) {
+        cout<<"Su IMC indica Obesidad clase 1";
+    } else if (IMC >= 35 && IMC < 39.9) {
+        cout<<"Su IMC indica Obesidad clase 2";
+    } else if(IMC >= 40) {
+        cout<<"Su IMC indica Obesidad clase 3";
+    }
+}
+
 
 
 
