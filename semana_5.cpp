@@ -132,3 +132,30 @@ int main() {
         break;
     } 
 }
+
+// Determine el mayor de tres numeros
+#include <iostream>
+
+using namespace std; 
+
+int A;
+int B;
+int C;
+
+int main() {
+    cout<< "Ingresa el primer número: ";
+    cin>> A;
+    cout<< "Ingresa el segundo número: ";
+    cin>> B;
+    cout<< "Ingresa el tercer número: ";
+    cin>> C;
+    
+    if(A>B && A>C) {
+        cout<< "El número mayor es A";
+    } else if (B>A && B>C) {
+        cout<< "El número mayor es B";
+    } else if (C>A && C>B) {
+        cout<< "El número mayor es C";
+    }
+    
+}
