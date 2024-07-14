@@ -159,3 +159,28 @@ int main() {
     }
     
 }
+
+// Bisiesto 
+#include <iostream>
+
+using namespace std; 
+
+int A; 
+
+int main() {
+    cout<< "Ingrese el año: ";
+    cin>> A;
+    
+    if(A%4 == 0) {
+        cout<< A <<" Es un año bisiesto" << endl;    
+    } else if (A%4 == 0 && A%100 != 0 ) {
+        cout<< A <<" Es un año bisiesto" << endl;
+    } else if (A%100 == 0 && A%400 != 0) {
+        cout<< A <<" No es un año bisiesto" << endl;
+    } else if (A%100 == 0 && A % 400 == 0) {
+        cout<< A <<"Es un año bisiesto" << endl;
+    } else if (A%4 != 0) {
+        cout<< A <<" No es un año bisiesto" << endl;
+    }
+    
+}
