@@ -1,6 +1,7 @@
-# notas_programacion
+# Ejercicios de programacion
 Resolución de código
 Semana 5: Condicionales
+
 Ejercicios:
 1. Calculadora
 Desarrolle un programa en C++ que solicite al usuario dos números y una operación a realizar entre ellos 
@@ -23,6 +24,48 @@ Algoritmos:
 
 4. Determinar el mayor de tres números:Desarrolle un programa en C++ que solicite al usuario tres números 
 y determine cuál de ellos es el mayor. El programa debe mostrar un mensaje indicando el número mayor.
+
+# Ejercicios de programacion
+Resolución de código
+Semana 09: Bucles
+
+1. Dados dos números previamente validados, obtener el MCD (máximo común divisor), utilizando el método de 
+factorización simultánea. Recuerde que el MCD es el mayor común divisor de todos ellos.
+
+2. Calcule la suma de la siguiente serie:
+3. Desarrolle un algoritmo que calcule la suma de la siguiente serie hasta el numero entero positivo N ingresado.
+4. Realizar un programa que calcule el resultado de la siguiente expresión:
+1-2+3-4+5-6....n
+Ejemplo:
+Digite el número de elementos: 5
+La suma es: 3
+5. Realice un programa que calcule y muestre en la salida entandar la suma de los cuadrados
+de los cuadrados de los 10 primeros enteros mayores que cero, recuerde hacer las
+validaciones necesarias.
+6. En una clase de 5 alumnos, se han realizado tres exámenes y se requiere determinar el
+número de:
+a) Alumnos que aprobaron todos los exámenes
+b) Alumnos que aprobaron al menos un examen.
+c) Alumnos que aprobaron únicamente el último examen
+Realice un programa que permita la lectura de los datos y el cálculo de las estadísticas.
+7. Dado el éxito de su aplicación para poder predecir el nivel de endeudamiento, el Ministerio
+de Economía en conjunto al INEI le han solicitado generar un grupo de estadísticas para
+poder estimar el crecimiento poblacional. Para poder hacer los cálculos se reciben los
+siguientes datos de las personas:
+-Estado civil (S: Soltero, C: Casado, V: Viudo, D: Divorciado)
+-Sexo (M: Masculino; F: Femenino)
+-Sueldo (Valor numérico decimal mayor que 0)
+-Tiene vivienda propia (S: Si, N: No)
+Se le pide a usted un programa en C++ y en entorno consola, que solicite el ingreso de la
+información de un conjunto de personas. El final será cuando se ingrese X como estado
+civil de la persona luego de lo cual debe mostrar la siguiente información:
+a) ¿Cuál es el porcentaje de personas, respecto del total, que tienen un sueldo mayor a 1500?
+b) ¿Cuál es el promedio de sueldo de las mujeres que no tienen una vivienda propia?
+c) ¿Cuál es el estado o estados civiles que es más frecuente?
+d) ¿Cuál es el menor sueldo del varón que tiene casa propia y no es casado? En caso no
+exista alguna persona mostrar un mensaje.
+
+
 
 ```
 #include <iostream>
