@@ -443,6 +443,99 @@ int main() {
         cout<<"Su IMC indica Obesidad clase 3";
     }
 }
+
+// Ejercicio 7
+
+#include <iostream>
+#include <iomanip>
+#include <string>
+using namespace std;
+
+int main() {
+    char estadoCivil;
+    char sexo;
+    double sueldo;
+    char tieneVivienda;
+    int totalPersonas = 0;
+    int solteros = 0, casados = 0, viudos = 0, divorciados = 0;
+    int hombres = 0, mujeres = 0;
+    int propietariosVivienda = 0, noPropietariosVivienda = 0;
+    double totalSueldos = 0.0, promedioSueldos = 0.0;
+ 
+    cout << "Ingrese la información de las personas (S para soltero, C para casado, V para viudo, D para divorciado):" << endl;
+    cout << "Ingrese X como estado civil para terminar." << endl;
+ 
+    while (true) {
+        cout << "Estado civil: ";
+        cin >> estadoCivil;
+        if (estadoCivil == 'X')
+            break;
+ 
+        cout << "Sexo (M/F): ";
+        cin >> sexo;
+        cout << "Sueldo: ";
+        cin >> sueldo;
+        cout << "Tiene vivienda propia (S/N): ";
+        cin >> tieneVivienda;
+ 
+        // Contadores por estado civil
+        switch (estadoCivil) {
+            case 'S':
+                solteros++;
+                break;
+            case 'C':
+                casados++;
+                break;
+            case 'V':
+                viudos++;
+                break;
+            case 'D':
+                divorciados++;
+                break;
+            default:
+                cout << "Estado civil no válido." << endl;
+                continue;
+        }
+ 
+        // Contadores por sexo
+        if (sexo == 'M')
+            hombres++;
+        else if (sexo == 'F')
+            mujeres++;
+ 
+        // Contadores por vivienda
+        if (tieneVivienda == 'S')
+            propietariosVivienda++;
+        else if (tieneVivienda == 'N')
+            noPropietariosVivienda++;
+ 
+        // Cálculo del total de sueldos
+        totalSueldos += sueldo;
+        totalPersonas++;
+    }
+ 
+    // Cálculo del promedio de sueldos
+    if (totalPersonas > 0)
+        promedioSueldos = totalSueldos / totalPersonas;
+ 
+    // Mostrar estadísticas
+    cout << "\nEstadísticas de crecimiento poblacional:" << endl;
+    cout << "---------------------------------------" << endl;
+    cout << "Total de personas: " << totalPersonas << endl;
+    cout << "Solteros: " << solteros << endl;
+    cout << "Casados: " << casados << endl;
+    cout << "Viudos: " << viudos << endl;
+    cout << "Divorciados: " << divorciados << endl;
+    cout << "Hombres: " << hombres << endl;
+    cout << "Mujeres: " << mujeres << endl;
+    cout << "Propietarios de vivienda: " << propietariosVivienda << endl;
+    cout << "No propietarios de vivienda: " << noPropietariosVivienda << endl;
+    cout << fixed << setprecision(2);
+    cout << "Promedio de sueldos: $" << promedioSueldos << endl;
+    return 0;
+}
+
+
 ```
 
 
