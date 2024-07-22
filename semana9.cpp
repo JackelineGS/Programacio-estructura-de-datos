@@ -1,6 +1,7 @@
-// Ejercicios
-// Ejercicio 1
 
+// SEMANA 9 - EJERCICIOS
+
+// EJERCICIO 1
 
 #include <iostream>  
 using namespace std;
@@ -44,7 +45,7 @@ cout<<"Ingresaste numeros incorrectos" << endl;
 } 
 }
 
-// Ejercicio 2
+// EJERCICIO 2 
 
 #include <iostream>
 using namespace std;  
@@ -72,7 +73,7 @@ int main() {
 }
 
 
-// Ejercicio 3
+// EJERCICIO 3
 
 #include <iostream>
 using namespace std; 
@@ -97,7 +98,7 @@ int main() {
 }
 
 
-// Ejercicio 4
+// EJERCICIO 4
 
 #include <iostream> 
 using namespace std;  
@@ -121,7 +122,7 @@ int main()
   cout<<"la SUMA TOTAL ES: " <<suma<<endl; 
 }
 
-// Ejercicio 5
+// EJERCICIO 5
 
 #include <iostream> 
 using namespace std;   
@@ -133,7 +134,7 @@ int suma = 0;
    cout << "La suma de cuadrados de los 10 primeros enteros mayores a 0 es: "<< suma << endl; 
 }
 
-// Ejercicio 6
+// EJERCICIO 6
 
 #include <iostream>
 using namespace std;
@@ -187,7 +188,7 @@ int main() {
 }
 
 
-// Ejercicio 7
+// EJERCICIO 7
 
 #include <iostream>
 #include <iomanip>

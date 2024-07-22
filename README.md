@@ -65,8 +65,23 @@ c) ¿Cuál es el estado o estados civiles que es más frecuente?
 d) ¿Cuál es el menor sueldo del varón que tiene casa propia y no es casado? En caso no
 exista alguna persona mostrar un mensaje.
 
+Semana 11
+Tema: Funciones con retorno:
+Una fábrica paga a sus empleados según su condición, de modo que un obrero contratado recibe al mes S/. 1200.00 
+y un obrero estable S/. 1000.00. así mismo, todos los empleados reciben un pago de gratificación en los meses de 
+Julio y diciembre. Dicha gratificación varía de acuerdo con los años de servicios que tiene el empleado, como se 
+muestra en el siguiente cuadro: Mediante el uso de función con valor de retorno y la declaración de variables 
+globales y locales correspondientes, realice lo siguiente:
+- TipoObrero(). - Obtener el pago del obrero ya sea Contratado o Estable.
+- CálculoSueldo(). - Calcular el sueldo de un obrero correspondiente a un mes determinado.
 
-
+------------------------------------------------
+Anos de servicio            % de Gratificacion
+------------------------------------------------
+0 a 5 anos                          60
+6 a 10 anos                         80
+11 a mas                           100
+------------------------------------------------
 ```
 #include <iostream>
 using namespace std;
@@ -443,98 +458,6 @@ int main() {
         cout<<"Su IMC indica Obesidad clase 3";
     }
 }
-
-// Ejercicio 7
-
-#include <iostream>
-#include <iomanip>
-#include <string>
-using namespace std;
-
-int main() {
-    char estadoCivil;
-    char sexo;
-    double sueldo;
-    char tieneVivienda;
-    int totalPersonas = 0;
-    int solteros = 0, casados = 0, viudos = 0, divorciados = 0;
-    int hombres = 0, mujeres = 0;
-    int propietariosVivienda = 0, noPropietariosVivienda = 0;
-    double totalSueldos = 0.0, promedioSueldos = 0.0;
- 
-    cout << "Ingrese la información de las personas (S para soltero, C para casado, V para viudo, D para divorciado):" << endl;
-    cout << "Ingrese X como estado civil para terminar." << endl;
- 
-    while (true) {
-        cout << "Estado civil: ";
-        cin >> estadoCivil;
-        if (estadoCivil == 'X')
-            break;
- 
-        cout << "Sexo (M/F): ";
-        cin >> sexo;
-        cout << "Sueldo: ";
-        cin >> sueldo;
-        cout << "Tiene vivienda propia (S/N): ";
-        cin >> tieneVivienda;
- 
-        // Contadores por estado civil
-        switch (estadoCivil) {
-            case 'S':
-                solteros++;
-                break;
-            case 'C':
-                casados++;
-                break;
-            case 'V':
-                viudos++;
-                break;
-            case 'D':
-                divorciados++;
-                break;
-            default:
-                cout << "Estado civil no válido." << endl;
-                continue;
-        }
- 
-        // Contadores por sexo
-        if (sexo == 'M')
-            hombres++;
-        else if (sexo == 'F')
-            mujeres++;
- 
-        // Contadores por vivienda
-        if (tieneVivienda == 'S')
-            propietariosVivienda++;
-        else if (tieneVivienda == 'N')
-            noPropietariosVivienda++;
- 
-        // Cálculo del total de sueldos
-        totalSueldos += sueldo;
-        totalPersonas++;
-    }
- 
-    // Cálculo del promedio de sueldos
-    if (totalPersonas > 0)
-        promedioSueldos = totalSueldos / totalPersonas;
- 
-    // Mostrar estadísticas
-    cout << "\nEstadísticas de crecimiento poblacional:" << endl;
-    cout << "---------------------------------------" << endl;
-    cout << "Total de personas: " << totalPersonas << endl;
-    cout << "Solteros: " << solteros << endl;
-    cout << "Casados: " << casados << endl;
-    cout << "Viudos: " << viudos << endl;
-    cout << "Divorciados: " << divorciados << endl;
-    cout << "Hombres: " << hombres << endl;
-    cout << "Mujeres: " << mujeres << endl;
-    cout << "Propietarios de vivienda: " << propietariosVivienda << endl;
-    cout << "No propietarios de vivienda: " << noPropietariosVivienda << endl;
-    cout << fixed << setprecision(2);
-    cout << "Promedio de sueldos: $" << promedioSueldos << endl;
-    return 0;
-}
-
 
 ```
 
