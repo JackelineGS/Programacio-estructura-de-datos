@@ -1,32 +1,32 @@
 # Ejercicios de programacion
-**Resolución de código
 
-*Semana 5: Condicionales
+### Semana 5: Condicionales
 
-1. Calculadora
+**1. Calculadora**
 Desarrolle un programa en C++ que solicite al usuario dos números y una operación a realizar entre ellos 
 (suma, resta, multiplicación o división) y muestre el resultado. El programa debe ser capaz de realizar 
 la operación indicada por el usuario y mostrar un mensaje de error si la operación no es válida.
 
 ![Diagrama](imagenes/S5E1.JPG)
 
-2. Determinar el cuadrante en el plano cartesiano
+**2. Determinar el cuadrante en el plano cartesiano**
 Desarrolle un programa en C++ que solicite al usuario las coordenadas de un punto en el plano cartesiano 
 y determine en qué cuadrante se encuentra. El programa debe mostrar un mensaje indicando el cuadrante 
 correspondiente o si el punto se encuentra en alguno de los ejes o en el origen.
 Algoritmos: 
 
-3. Calificación de examen
+**3. Calificación de examen**
 Desarrolle un programa en C++ que solicite al usuario la calificación de un examen (0 a 100) y muestre si 
 es insuficiente, suficiente, bien, notable o sobresaliente. El programa debe mostrar un mensaje indicando 
 la calificación obtenida.
 Algoritmos:
 
 
-4. Determinar el mayor de tres números:Desarrolle un programa en C++ que solicite al usuario tres números 
+**4. Determinar el mayor de tres números**
+Desarrolle un programa en C++ que solicite al usuario tres números 
 y determine cuál de ellos es el mayor. El programa debe mostrar un mensaje indicando el número mayor.
 
-5. Determinar si un año es bisiesto:
+**5. Determinar si un año es bisiesto**
 Desarrolle un programa en C++ que solicite al usuario un año y determine si es bisiesto o no. 
 El programa debe mostrar un mensaje indicando si el año es bisiesto o no. Considere lo siguiente:
 1.Todos los años bisiestos son divisibles entre 4.
@@ -34,27 +34,27 @@ El programa debe mostrar un mensaje indicando si el año es bisiesto o no. Consi
 3.Los años que son divisibles entre 100, pero no entre 400, no son bisiestos.
 4.Sin embargo, los años divisibles entre 100 y entre 400 sí que son bisiestos.
 
-6. Determinar el tipo de triángulo
+**6. Determinar el tipo de triángulo**
 Desarrolle un programa en C++ que solicite al usuario la longitud de los tres lados de un triángulo y 
 determine si es equilátero, isósceles o escaleno. El programa debe mostrar un mensaje indicando el tipo 
 de triángulo.
 
-7. Calcular el descuento
+**7. Calcular el descuento**
 Desarrolle un programa en C++ que solicite al usuario el precio de un producto y la cantidad de productos 
 a comprar, y calcule el precio total aplicando un descuento del 10% si la cantidad es mayor a 10, o un descuento
 del 20% si la cantidad es mayor a 20. El programa debe mostrar el precio total a pagar.
 
-8. Determinar si un número es par o impar
+**8. Determinar si un número es par o impar**
 Desarrolle un programa en C++ que solicite al usuario un número entero y determine si es par o impar. Si el 
 número es cero, el programa debe indicar que es nulo. El programa debe mostrar un mensaje indicando si el número 
 es par, impar o nulo.
 
-9. Determinar el día de la semana
+**9. Determinar el día de la semana**
 Desarrolle un programa en C++ que solicite al usuario un número del 1 al 7 y muestre el día de la semana 
 correspondiente. El programa debe mostrar un mensaje indicando el día de la semana o un mensaje de error si el 
 número ingresado no es válido.
 
-10. Calcular el índice de masa corporal (IMC)
+**10. Calcular el índice de masa corporal (IMC)**
 Desarrolla un programa en C++ que solicite al usuario su peso (en kg) y su altura (en metros) y calcule su IMC. 
 Luego, el programa debe mostrar si el usuario tiene bajo peso, peso normal, sobrepeso u obesidad 
 (clase 1, clase 2, clase 3). El programa debe mostrar un mensaje indicando la categoría de IMC correspondiente. 
@@ -67,9 +67,7 @@ Considere lo siguiente:
 • Obesidad clase 2: 35 <= IMC < 39.9
 • Obesidad clase 3: IMC >= 40
 
-# Ejercicios de programacion
-Resolución de código
-Semana 09: Bucles
+### Semana 09: Bucles
 
 1. Dados dos números previamente validados, obtener el MCD (máximo común divisor), utilizando el método de 
 factorización simultánea. Recuerde que el MCD es el mayor común divisor de todos ellos.
