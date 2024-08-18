@@ -1,8 +1,8 @@
 # Ejercicios de programacion
-Resolución de código
-Semana 5: Condicionales
+**Resolución de código
 
-Ejercicios:
+*Semana 5: Condicionales
+
 1. Calculadora
 Desarrolle un programa en C++ que solicite al usuario dos números y una operación a realizar entre ellos 
 (suma, resta, multiplicación o división) y muestre el resultado. El programa debe ser capaz de realizar 
