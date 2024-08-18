@@ -83,25 +83,27 @@ Considere lo siguiente:
 
 ### Semana 09: Bucles
 
-1. Dados dos números previamente validados, obtener el MCD (máximo común divisor), utilizando el método de 
+**1. Obtener el MCD (máximo común divisor)** Dados dos números previamente validados, obtener el MCD (máximo común divisor), utilizando el método de 
 factorización simultánea. Recuerde que el MCD es el mayor común divisor de todos ellos.
 
-2. Calcule la suma de la siguiente serie:
+**2. Calcule la suma de la siguiente serie**
+
 3. Desarrolle un algoritmo que calcule la suma de la siguiente serie hasta el numero entero positivo N ingresado.
+
 4. Realizar un programa que calcule el resultado de la siguiente expresión:
 1-2+3-4+5-6....n
-Ejemplo:
-Digite el número de elementos: 5
-La suma es: 3
+
 5. Realice un programa que calcule y muestre en la salida entandar la suma de los cuadrados
 de los cuadrados de los 10 primeros enteros mayores que cero, recuerde hacer las
 validaciones necesarias.
+
 6. En una clase de 5 alumnos, se han realizado tres exámenes y se requiere determinar el
 número de:
 a) Alumnos que aprobaron todos los exámenes
 b) Alumnos que aprobaron al menos un examen.
 c) Alumnos que aprobaron únicamente el último examen
 Realice un programa que permita la lectura de los datos y el cálculo de las estadísticas.
+
 7. Dado el éxito de su aplicación para poder predecir el nivel de endeudamiento, el Ministerio
 de Economía en conjunto al INEI le han solicitado generar un grupo de estadísticas para
 poder estimar el crecimiento poblacional. Para poder hacer los cálculos se reciben los
@@ -119,23 +121,25 @@ c) ¿Cuál es el estado o estados civiles que es más frecuente?
 d) ¿Cuál es el menor sueldo del varón que tiene casa propia y no es casado? En caso no
 exista alguna persona mostrar un mensaje.
 
-Semana 11
-Tema: Funciones con retorno:
+### Semana 11: Funciones con retorno
+
+**1. Primer ejercicio**
+
 Una fábrica paga a sus empleados según su condición, de modo que un obrero contratado recibe al mes S/. 1200.00 
 y un obrero estable S/. 1000.00. así mismo, todos los empleados reciben un pago de gratificación en los meses de 
 Julio y diciembre. Dicha gratificación varía de acuerdo con los años de servicios que tiene el empleado, como se 
-muestra en el siguiente cuadro: Mediante el uso de función con valor de retorno y la declaración de variables 
+muestra en el siguiente cuadro: 
+![Diagrama](imagenes/tabla.JPG)
+Mediante el uso de función con valor de retorno y la declaración de variables 
 globales y locales correspondientes, realice lo siguiente:
 - TipoObrero(). - Obtener el pago del obrero ya sea Contratado o Estable.
 - CálculoSueldo(). - Calcular el sueldo de un obrero correspondiente a un mes determinado.
 
-------------------------------------------------
-Anos de servicio            % de Gratificacion
-------------------------------------------------
-0 a 5 anos                          60
-6 a 10 anos                         80
-11 a mas                           100
-------------------------------------------------
+![Diagrama](imagenes/S11E1.1.JPG)
+
+![Diagrama](imagenes/S11E1.2.JPG)
+
+![Diagrama](imagenes/S11E1.3.JPG)
 
 
 
