@@ -44,26 +44,28 @@ Desarrolle un programa en C++ que solicite al usuario la longitud de los tres la
 determine si es equilátero, isósceles o escaleno. El programa debe mostrar un mensaje indicando el tipo 
 de triángulo.
 
+![Diagrama](imagenes/S5E6.JPG)
+
 **7. Calcular el descuento**
 Desarrolle un programa en C++ que solicite al usuario el precio de un producto y la cantidad de productos 
 a comprar, y calcule el precio total aplicando un descuento del 10% si la cantidad es mayor a 10, o un descuento
 del 20% si la cantidad es mayor a 20. El programa debe mostrar el precio total a pagar.
 
-![Diagrama](imagenes/S5E6.JPG)
+![Diagrama](imagenes/S5E7.JPG)
 
 **8. Determinar si un número es par o impar**
 Desarrolle un programa en C++ que solicite al usuario un número entero y determine si es par o impar. Si el 
 número es cero, el programa debe indicar que es nulo. El programa debe mostrar un mensaje indicando si el número 
 es par, impar o nulo.
 
-![Diagrama](imagenes/S5E7.JPG)
+![Diagrama](imagenes/S5E8.JPG)
 
 **9. Determinar el día de la semana**
 Desarrolle un programa en C++ que solicite al usuario un número del 1 al 7 y muestre el día de la semana 
 correspondiente. El programa debe mostrar un mensaje indicando el día de la semana o un mensaje de error si el 
 número ingresado no es válido.
 
-![Diagrama](imagenes/S5E8.JPG)
+![Diagrama](imagenes/S5E9.JPG)
 
 **10. Calcular el índice de masa corporal (IMC)**
 Desarrolla un programa en C++ que solicite al usuario su peso (en kg) y su altura (en metros) y calcule su IMC. 
@@ -78,7 +80,6 @@ Considere lo siguiente:
 • Obesidad clase 2: 35 <= IMC < 39.9
 • Obesidad clase 3: IMC >= 40
 
-![Diagrama](imagenes/S5E9.JPG)
 
 ### Semana 09: Bucles
 
