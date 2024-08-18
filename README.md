@@ -8,7 +8,7 @@ Desarrolle un programa en C++ que solicite al usuario dos números y una operaci
 (suma, resta, multiplicación o división) y muestre el resultado. El programa debe ser capaz de realizar 
 la operación indicada por el usuario y mostrar un mensaje de error si la operación no es válida.
 
-![Diagrama](imagenes/SEE1.JPG)
+![Diagrama](imagenes/S5E1.JPG)
 
 2. Determinar el cuadrante en el plano cartesiano
 Desarrolle un programa en C++ que solicite al usuario las coordenadas de un punto en el plano cartesiano 
