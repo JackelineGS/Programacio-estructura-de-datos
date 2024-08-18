@@ -13,26 +13,31 @@ la operación indicada por el usuario y mostrar un mensaje de error si la operac
 Desarrolle un programa en C++ que solicite al usuario las coordenadas de un punto en el plano cartesiano 
 y determine en qué cuadrante se encuentra. El programa debe mostrar un mensaje indicando el cuadrante 
 correspondiente o si el punto se encuentra en alguno de los ejes o en el origen.
-Algoritmos: 
+
+![Diagrama](imagenes/S5E2.JPG) 
 
 **3. Calificación de examen**
 Desarrolle un programa en C++ que solicite al usuario la calificación de un examen (0 a 100) y muestre si 
 es insuficiente, suficiente, bien, notable o sobresaliente. El programa debe mostrar un mensaje indicando 
 la calificación obtenida.
-Algoritmos:
 
+![Diagrama](imagenes/S5E3.JPG)
 
 **4. Determinar el mayor de tres números**
 Desarrolle un programa en C++ que solicite al usuario tres números 
 y determine cuál de ellos es el mayor. El programa debe mostrar un mensaje indicando el número mayor.
 
+![Diagrama](imagenes/S5E4.JPG)
+
 **5. Determinar si un año es bisiesto**
 Desarrolle un programa en C++ que solicite al usuario un año y determine si es bisiesto o no. 
 El programa debe mostrar un mensaje indicando si el año es bisiesto o no. Considere lo siguiente:
-1.Todos los años bisiestos son divisibles entre 4.
-2.Aquellos años que son divisibles entre 4, pero no entre 100, son bisiestos.
-3.Los años que son divisibles entre 100, pero no entre 400, no son bisiestos.
-4.Sin embargo, los años divisibles entre 100 y entre 400 sí que son bisiestos.
+a.Todos los años bisiestos son divisibles entre 4.
+b.Aquellos años que son divisibles entre 4, pero no entre 100, son bisiestos.
+c.Los años que son divisibles entre 100, pero no entre 400, no son bisiestos.
+d.Sin embargo, los años divisibles entre 100 y entre 400 sí que son bisiestos.
+
+![Diagrama](imagenes/S5E5.JPG)
 
 **6. Determinar el tipo de triángulo**
 Desarrolle un programa en C++ que solicite al usuario la longitud de los tres lados de un triángulo y 
@@ -44,15 +49,21 @@ Desarrolle un programa en C++ que solicite al usuario el precio de un producto y
 a comprar, y calcule el precio total aplicando un descuento del 10% si la cantidad es mayor a 10, o un descuento
 del 20% si la cantidad es mayor a 20. El programa debe mostrar el precio total a pagar.
 
+![Diagrama](imagenes/S5E6.JPG)
+
 **8. Determinar si un número es par o impar**
 Desarrolle un programa en C++ que solicite al usuario un número entero y determine si es par o impar. Si el 
 número es cero, el programa debe indicar que es nulo. El programa debe mostrar un mensaje indicando si el número 
 es par, impar o nulo.
 
+![Diagrama](imagenes/S5E7.JPG)
+
 **9. Determinar el día de la semana**
 Desarrolle un programa en C++ que solicite al usuario un número del 1 al 7 y muestre el día de la semana 
 correspondiente. El programa debe mostrar un mensaje indicando el día de la semana o un mensaje de error si el 
 número ingresado no es válido.
+
+![Diagrama](imagenes/S5E8.JPG)
 
 **10. Calcular el índice de masa corporal (IMC)**
 Desarrolla un programa en C++ que solicite al usuario su peso (en kg) y su altura (en metros) y calcule su IMC. 
@@ -66,6 +77,8 @@ Considere lo siguiente:
 • Obesidad clase 1: 30 <= IMC < 34.9
 • Obesidad clase 2: 35 <= IMC < 39.9
 • Obesidad clase 3: IMC >= 40
+
+![Diagrama](imagenes/S5E9.JPG)
 
 ### Semana 09: Bucles
 
