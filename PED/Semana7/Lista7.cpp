@@ -3,7 +3,6 @@
 using namespace std;
 
 
-
 struct TPersona{
 	string nombre;
 	int edad;
