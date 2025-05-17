@@ -13,3 +13,12 @@ output: html_document
 
 ## Ordenamiento de listas 
 [Ver ejemplo](https://gist.github.com/codepainkiller/3cc906797788cb10ab17)
+
+## Actividades
+
+
+
+
+
+Crear un proyecto usando backtraking : crear un mini juego de ajedrez con ello 
+
